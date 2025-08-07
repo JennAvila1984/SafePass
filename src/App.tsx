@@ -1,7 +1,7 @@
 
 import { Toaster } from "./components/ui/toaster"; 
 import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { TooltipProvider } from "./components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -28,4 +28,4 @@ const App = () => (
 );
 
 export default App;
-fix: replace alias import path with relative path for Toaster component
+fix: replaced all alias imports with relative paths
